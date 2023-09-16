@@ -1,8 +1,8 @@
 export default function SiteFooter() {
   return (
     <>
-      <footer className=" flex justify-start space-x-20 items-start text-lg py-6 relative">
-        <div className="w-1/4">
+      <footer className="relative flex flex-col space-y-8 py-6 pt-60 font-inter text-lg sm:flex-row sm:items-start sm:justify-start sm:space-x-20 sm:space-y-0 sm:pt-8">
+        <div className="sm:w-1/4">
           <h4 className="mb-4">TRIO Design</h4>
           <p>
             Call us now for stylish and quality pieces to elevate your living
@@ -29,7 +29,7 @@ export default function SiteFooter() {
         </div>
         <img
           src="https://pngimg.com/uploads/armchair/armchair_PNG7062.png"
-          className="w-80 absolute right-0 -top-28 "
+          className="absolute -top-44 w-80 sm:-top-28 sm:right-0"
         />
       </footer>
     </>

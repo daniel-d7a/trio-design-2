@@ -9,8 +9,8 @@ const { Header, Content, Footer } = Layout;
 function App() {
   return (
     <>
-      <Layout className="m-0 ">
-        <Header className="bg-dark-green h-20 py-2">
+      <Layout className="m-0">
+        <Header className="bg-light-green h-20">
           <NavBar />
         </Header>
         <Content className="bg-white w-full overflow-x-hidden">

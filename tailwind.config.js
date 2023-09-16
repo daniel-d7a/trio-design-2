@@ -8,6 +8,9 @@ export default {
         "light-green": "#f0faeb",
         beige: "#e8d0a2",
       },
+      fontFamily: {
+        inter: "'Inter', sans-serif;",
+      },
     },
   },
   plugins: [],
