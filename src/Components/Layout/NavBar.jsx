@@ -8,7 +8,7 @@ export default function NavBar() {
 
   return (
     <>
-      <nav className="hidden items-center justify-between font-inter md:flex">
+      <nav className="hidden items-center justify-between font-inter md:flex lg:px-24">
         <img src={webLogo} alt="" className="w-24" />
         <div className="flex gap-8">
           <Link className=" group relative text-xl text-dark-green hover:text-current ">
