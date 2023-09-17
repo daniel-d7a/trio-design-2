@@ -10,14 +10,14 @@ function App() {
   return (
     <>
       <Layout className="m-0">
-        <Header className="bg-light-green h-20">
+        <Header className="h-20 bg-light-green">
           <NavBar />
         </Header>
-        <Content className="bg-white w-full overflow-x-hidden">
+        <Content className="w-full overflow-x-hidden bg-white">
           <HeroCarousel />
           <GetToKnow />
         </Content>
-        <Footer className="bg-beige rounded-t-[70px]">
+        <Footer className="rounded-t-[70px] bg-beige">
           <SiteFooter />
         </Footer>
       </Layout>

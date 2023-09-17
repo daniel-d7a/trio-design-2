@@ -40,18 +40,20 @@ export default function HeroCarousel() {
                     style={{
                       backgroundImage: `linear-gradient(to right, ${color} 15%, transparent)`,
                     }}
-                    className={`absolute left-0 top-1/2 z-50 hidden h-full w-3/5 -translate-y-1/2 p-12 text-white lg:block`}
+                    className={`absolute left-0 top-1/2 z-50 h-full w-3/5 -translate-y-1/2 p-12 text-white `}
                   >
                     <h2 className="mb-12 mt-20 w-3/5 text-6xl font-bold">
                       {title}
                     </h2>
                     <p className="w-3/5 text-2xl font-normal">{text}</p>
                   </div>
-                  <img
-                    src={link}
-                    alt=""
-                    className="relative z-30 mx-auto mt-2 hidden h-[90vh] lg:block"
-                  />
+                  <div className="h-[90vh]">
+                    <img
+                      src={link}
+                      alt=""
+                      className="relative z-30 mx-auto mt-2 h-full w-full object-cover object-center"
+                    />
+                  </div>
                 </div>
 
                 {/* for tablets */}

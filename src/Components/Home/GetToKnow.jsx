@@ -44,14 +44,14 @@ export default function GetToKnow() {
         </div>
       </div> */}
       <div className="mb-32 flex flex-col py-10 font-inter lg:mb-2 lg:flex-row lg:items-center lg:justify-center">
-        <div className="relative h-[70vh] w-full lg:w-2/5">
+        <div className="relative h-[70vh] w-full md:h-[80vh] lg:w-2/5">
           <img
-            className="absolute left-14 top-[calc(70vw)] z-20 w-[30%] rounded-md sm:-bottom-6 sm:left-auto sm:right-24 sm:top-auto sm:w-32 md:bottom-[8vw] lg:-bottom-10 md:right-[48%] lg:w-32 lg:right-10"
+            className="absolute left-14 top-[calc(70vw)] z-20 w-[30%] rounded-md sm:-bottom-6 sm:left-auto sm:right-24 sm:top-auto sm:w-32 md:bottom-[8vw] md:right-[48%] lg:-bottom-10 lg:right-10 lg:w-32"
             src="https://source.unsplash.com/zrebaMbVfac"
             alt=""
           />
           <img
-            className="absolute right-6 top-12 z-30 w-[35%] rounded-md sm:right-6 sm:top-6 sm:w-40 md:right-1/4 md:w-52 lg:w-40 lg:right-10"
+            className="absolute right-6 top-12 z-30 w-[35%] rounded-md sm:right-6 sm:top-6 sm:w-40 md:right-1/4 md:w-52 lg:right-10 lg:w-40"
             src="https://source.unsplash.com/dLmlYKuoJBc"
             alt=""
           />
@@ -61,7 +61,7 @@ export default function GetToKnow() {
             alt=""
           />
           <div
-            className="absolute right-2 top-2/3 h-40 w-60 -translate-y-1/2 md:right-0 left-1/3 md:h-60 md:w-80"
+            className="absolute left-1/3 right-2 top-2/3 h-40 w-60 -translate-y-1/2 md:right-0 md:h-60 md:w-80"
             style={{
               backgroundImage: "radial-gradient(#2a2a2a 1.5px, transparent 0)",
               backgroundSize: "20px 20px",
