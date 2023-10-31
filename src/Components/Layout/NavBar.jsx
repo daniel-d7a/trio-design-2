@@ -27,7 +27,10 @@ export default function NavBar() {
                           duration-500 group-hover:scale-x-100`}
             ></div>
           </Link>
-          <Link className=" group relative text-xl text-dark-green hover:text-current ">
+          <Link
+            to="contact"
+            className=" group relative text-xl text-dark-green hover:text-current "
+          >
             <span>Contact us</span>
             <div
               className={`h-[2.5px] w-full

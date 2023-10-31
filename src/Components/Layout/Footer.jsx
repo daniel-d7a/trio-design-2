@@ -1,7 +1,7 @@
 export default function SiteFooter() {
   return (
     <>
-      <footer className="relative flex flex-col py-6 pb-12 pt-60 font-inter text-lg sm:pt-8">
+      <footer className="relative bottom-0 flex flex-col py-6 pb-12 pt-60 font-inter text-lg sm:pt-8">
         {/* for desktop and tablets screens */}
         <div className="relative mr-[27%] hidden sm:block md:h-60 lg:mr-0 lg:h-0">
           <img
