@@ -9,7 +9,7 @@ export default function ContactUs() {
   return (
     <>
       <h2 className="my-4 text-center text-4xl text-black">Contact Us</h2>
-      <div className="m-auto mb-44 flex h-[75vh] w-full flex-col items-start justify-start gap-4  text-black sm:mb-20 sm:h-[60vh] md:w-4/5 lg:w-full lg:flex-row lg:justify-center lg:px-8 xl:h-[65vh]">
+      <div className="m-auto mb-44 flex h-[75vh] w-screen flex-col items-start justify-start gap-4 overflow-x-hidden  text-black sm:mb-20 sm:h-[60vh] md:w-4/5 lg:w-full lg:flex-row lg:justify-center lg:px-8 xl:h-[65vh]">
         <div className=" relative h-full w-full max-w-xs overflow-hidden p-4 sm:max-w-fit sm:self-center lg:max-w-md  lg:self-start">
           <span className="relative z-10 text-3xl font-semibold capitalize lg:text-5xl">
             have a question? get in touch.
